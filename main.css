@@ -491,6 +491,11 @@
 .order {
   padding-bottom: 50px;
 }
+.order .row {
+  display: flex;
+  gap: 15px;
+  padding-bottom: 15px;
+}
 .order .button {
   margin-top: 10px;
   display: flex;
@@ -732,10 +737,4 @@
   border: 1px solid #696969;
   border-radius: 0;
   outline: none;
-}
-
-.row {
-  display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
 }/*# sourceMappingURL=main.css.map */
