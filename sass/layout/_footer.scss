@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    .social-icons {
+    &__social-icons {
         display: flex;
         justify-content: center;
         gap: 10px;
@@ -27,13 +27,13 @@
             font-size: 17px;
         }
     }
-    .logo {
+    &__logo {
         img {
             height: 47px;
             margin-bottom: 44px;
         }
     }
-    .contacts {
+    &__contacts {
         margin-bottom: 25px;
         span {
             color: $main-color;

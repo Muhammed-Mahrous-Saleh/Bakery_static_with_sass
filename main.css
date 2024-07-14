@@ -547,13 +547,13 @@
   justify-content: center;
   align-items: center;
 }
-.footer .social-icons {
+.footer__social-icons {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-bottom: 45px;
 }
-.footer .social-icons div {
+.footer__social-icons div {
   width: 42px;
   height: 42px;
   line-height: 42px;
@@ -567,18 +567,18 @@
   text-align: center;
   font-size: 17px;
 }
-.footer .social-icons div:hover {
+.footer__social-icons div:hover {
   background-color: #696969;
   color: #ebb576;
 }
-.footer .logo img {
+.footer__logo img {
   height: 47px;
   margin-bottom: 44px;
 }
-.footer .contacts {
+.footer__contacts {
   margin-bottom: 25px;
 }
-.footer .contacts span {
+.footer__contacts span {
   color: #ebb576;
   padding-inline: 10px;
 }
