@@ -520,7 +520,7 @@
   width: 100%;
   transition: all 0.5s;
 }
-.gallery__item .overlay {
+.gallery__item__overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -532,7 +532,7 @@
 .gallery__item:hover img {
   scale: 1.05;
 }
-.gallery__item:hover .overlay {
+.gallery__item:hover .gallery__item__overlay {
   background-color: rgba(255, 255, 255, 0.4);
 }
 
