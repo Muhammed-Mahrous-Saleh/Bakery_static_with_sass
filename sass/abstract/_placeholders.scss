@@ -1,0 +1,25 @@
+// placeholder
+%btn {
+    // background-color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+%list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 5px;
+    list-style: none;
+}
+
+%container {
+    width: 80%;
+    margin: auto;
+}
+
+%description {
+    text-align: center;
+    margin-bottom: 30px;
+}

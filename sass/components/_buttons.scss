@@ -1,0 +1,46 @@
+.btn {
+    @include button(white);
+    border: 2px solid $btn-color;
+    &:hover {
+        @include eleHover();
+    }
+}
+.btn--color-orange {
+    &:hover {
+        @include eleHover($main-color, white);
+        border-color: $main-color;
+    }
+}
+.btn-reverse {
+    @include button($main-color);
+    border: 2px solid $main-color;
+    &:hover {
+        @include eleHover($main-color, white);
+    }
+}
+.borderless-btn {
+    @include button(white);
+    &:hover {
+        @include eleHover($main-color, white);
+    }
+    &.active {
+        color: $main-color;
+    }
+}
+
+// .list-btn {
+//     font-size: $f-size;
+//     justify-content: center;
+//     padding-inline: 15px;
+//     margin: 5px;
+//     position: relative;
+//     &::before {
+//         content: "";
+//         background-color: $text-color;
+//         height: 5px;
+//         width: 5px;
+//         position: absolute;
+//         left: -5px;
+//         border-radius: 50%;
+//     }
+// }
